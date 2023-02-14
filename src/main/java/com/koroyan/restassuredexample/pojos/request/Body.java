@@ -1,11 +1,9 @@
 package com.koroyan.restassuredexample.pojos.request;
 
-import com.sun.xml.txw2.annotation.XmlNamespace;
-
 import javax.xml.bind.annotation.*;
 
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlSeeAlso({AddInteger.class,FindPerson.class})
+@XmlSeeAlso({AddInteger.class, FindPerson.class, GetListByName.class})
 @XmlType(namespace = "http://tempuri.org")
 public class Body {
 
@@ -15,7 +13,8 @@ public class Body {
     //AddInteger addInteger;
     //FindPerson findPerson;
 
-    public Body(){}
+    public Body() {
+    }
 
     public Body(Object object) {
         this.object = object;

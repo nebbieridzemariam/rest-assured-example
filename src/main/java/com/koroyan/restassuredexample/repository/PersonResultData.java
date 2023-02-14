@@ -19,7 +19,7 @@ public class PersonResultData {
                 e.printStackTrace();
             }
             FindPersonResult findPersonResult = new FindPersonResult(
-                    "Newton,Dave R..",
+                    "Newton,Dave R.",
                     "384-10-6538",
                     date,
                     new Home(
